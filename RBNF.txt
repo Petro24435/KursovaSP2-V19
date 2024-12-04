@@ -1,6 +1,6 @@
-<topRule> =    "NAME" <Name> ; "BODY" "DATA" <varsBlok> ; <codeBlok> "END"
+<topRule> =    "NAME" <identifier> ; "BODY" "DATA" <varsBlok> ; <codeBlok> "END"
 <varsBlok> =    "INTEGER_2" <identifier> [{<commaAndIdentifier>}];
-<identifier> =    _<low_letter> {<up_letter>} {12}
+<identifier> =    _<low_letter> {<up_letter>} {11}
 <commaAndIdentifier> =    "," <identifier>
 <codeBlok> =    <write> | <read> | <assignment> | <ifStatement> 
 | <goto_statement> | < labelRule > |  < forToOrDownToDoRule> | <while>  | <repeatUntil> "END";
@@ -14,16 +14,16 @@
 <while> = "WHILE" (<equation>) "DO" <codeBlok> "ENDWHILE" 
 | "WHILE" (<equation>) "DO" <codeBlok> "ExitWhile" "ENDWHILE"
 | "WHILE" (<equation>) "DO" <codeBlok> "ContinueWhile"  <codeBlok> "ENDWHILE";
-<repeatUntil> = "REPEAT" <codeBlok> "UNTIL" (<equation<);
+<repeatUntil> = "REPEAT" <codeBlok> "UNTIL" (<equation>);
 <equation> =    <signedNumber> | <identifier> |  <notRule> [{ <operationAndIdentOrNumber> | <equation> }];
 < notRule > =    <notOperation> <signedNumber> | <identifier> | <equation>;
-<operationAndIdentOrNumber> =    <mult> | <arithmetic> | <logic> | <compare> <signedNumber> | <identifier> | <equation>; 
+<operationAndIdentOrNumber> =    <mult> | <arithmetic> | <logic> | <compare> | <signedNumber> | <identifier> | <equation>; 
 <arithmetic> =    "ADD" | "SUB";
 <mult> =    "MUL" | "DIV" | "MOD";
 <logic> =    "AND" | "OR";
 <notOperation> =    "NOT";
 <compare> =    "EQ" | "NE" | "<=" |">=";
-<comment> = "!!" ;
+<comment> = "!!"{<low_letter> | <up_letter> | <digit>} ;
 <signedNumber>	=    [<sign>] <digit>[{digit}];
 <sign> =  "+" | "-"  ;
 <low_letter> =    a|b|c|d|e|f|g|h|i|j|k|l|n|m|o|p|q|r|s|t|u|v|w|x|y|z
