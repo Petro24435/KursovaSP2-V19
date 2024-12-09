@@ -1,5 +1,5 @@
 topRule =    "NAME", "BODY", "DATA" varsBlok , codeBlok, "END";
-varsBlok+ =    "INTEGER_2", identifier, { commaAndIdentifier };
+varsBlok =    "INTEGER_2", identifier, { commaAndIdentifier };
 identifier =    "_", low_letter, up_letter, up_letter, up_letter, up_letter, up_letter, up_letter, up_letter, up_letter, up_letter, up_letter;
 commaAndIdentifier =    ",", identifier;
 statement = write | read | assignment | ifStatement| goto_statement | forToOrDownToDoRule | while | repeatUntil ;
