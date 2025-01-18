@@ -1,0 +1,118 @@
+|-- program
+|    |-- var
+|    |    |-- _tTTTTTTTTTTTT
+|    |    |-- var
+|    |    |    |-- _cCCCCCCCCCCCC
+|    |    |    |-- var
+|    |    |    |    |-- _bBBBBBBBBBBBB
+|    |    |    |    |-- var
+|    |    |    |    |    |-- _aAAAAAAAAAAAA
+|    |-- statement
+|    |    |-- statement
+|    |    |    |-- statement
+|    |    |    |    |-- statement
+|    |    |    |    |    |-- statement
+|    |    |    |    |    |    |-- statement
+|    |    |    |    |    |    |    |-- statement
+|    |    |    |    |    |    |    |    |-- statement
+|    |    |    |    |    |    |    |    |    |-- statement
+|    |    |    |    |    |    |    |    |    |    |-- statement
+|    |    |    |    |    |    |    |    |    |    |    |-- statement
+|    |    |    |    |    |    |    |    |    |    |    |    |-- statement
+|    |    |    |    |    |    |    |    |    |    |    |    |    |-- statement
+|    |    |    |    |    |    |    |    |    |    |    |    |    |    |-- statement
+|    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |-- statement
+|    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |-- statement
+|    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |-- input
+|    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |-- _aAAAAAAAAAAAA
+|    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |-- input
+|    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |-- _bBBBBBBBBBBBB
+|    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |-- input
+|    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |-- _cCCCCCCCCCCCC
+|    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |-- if
+|    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |-- >=
+|    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |-- _bBBBBBBBBBBBB
+|    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |-- _aAAAAAAAAAAAA
+|    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |-- then
+|    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |-- goto
+|    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |-- _oOOOOOOOOOOOQ
+|    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |-- :=
+|    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |-- _tTTTTTTTTTTTT
+|    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |-- _aAAAAAAAAAAAA
+|    |    |    |    |    |    |    |    |    |    |    |    |    |    |-- _oOOOOOOOOOOOW
+|    |    |    |    |    |    |    |    |    |    |    |    |    |-- if
+|    |    |    |    |    |    |    |    |    |    |    |    |    |    |-- &
+|    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |-- >=
+|    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |-- _cCCCCCCCCCCCC
+|    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |-- _bBBBBBBBBBBBB
+|    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |-- >=
+|    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |-- _cCCCCCCCCCCCC
+|    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |-- _aAAAAAAAAAAAA
+|    |    |    |    |    |    |    |    |    |    |    |    |    |    |-- then
+|    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |-- goto
+|    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |-- _oOOOOOOOOOOOE
+|    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |-- goto
+|    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |-- _oOOOOOOOOOOOR
+|    |    |    |    |    |    |    |    |    |    |    |    |-- _oOOOOOOOOOOOQ
+|    |    |    |    |    |    |    |    |    |    |    |-- :=
+|    |    |    |    |    |    |    |    |    |    |    |    |-- _tTTTTTTTTTTTT
+|    |    |    |    |    |    |    |    |    |    |    |    |-- _bBBBBBBBBBBBB
+|    |    |    |    |    |    |    |    |    |    |-- goto
+|    |    |    |    |    |    |    |    |    |    |    |-- _oOOOOOOOOOOOW
+|    |    |    |    |    |    |    |    |    |-- _oOOOOOOOOOOOE
+|    |    |    |    |    |    |    |    |-- :=
+|    |    |    |    |    |    |    |    |    |-- _tTTTTTTTTTTTT
+|    |    |    |    |    |    |    |    |    |-- _cCCCCCCCCCCCC
+|    |    |    |    |    |    |    |-- goto
+|    |    |    |    |    |    |    |    |-- _oOOOOOOOOOOOR
+|    |    |    |    |    |    |-- _oOOOOOOOOOOOR
+|    |    |    |    |    |-- output
+|    |    |    |    |    |    |-- _tTTTTTTTTTTTT
+|    |    |    |    |-- if
+|    |    |    |    |    |-- &
+|    |    |    |    |    |    |-- &
+|    |    |    |    |    |    |    |-- EQ
+|    |    |    |    |    |    |    |    |-- _aAAAAAAAAAAAA
+|    |    |    |    |    |    |    |    |-- _bBBBBBBBBBBBB
+|    |    |    |    |    |    |    |-- EQ
+|    |    |    |    |    |    |    |    |-- _aAAAAAAAAAAAA
+|    |    |    |    |    |    |    |    |-- _cCCCCCCCCCCCC
+|    |    |    |    |    |    |-- EQ
+|    |    |    |    |    |    |    |-- _bBBBBBBBBBBBB
+|    |    |    |    |    |    |    |-- _cCCCCCCCCCCCC
+|    |    |    |    |    |-- then
+|    |    |    |    |    |    |-- output
+|    |    |    |    |    |    |    |-- 1
+|    |    |    |    |    |    |-- output
+|    |    |    |    |    |    |    |-- 0
+|    |    |    |-- if
+|    |    |    |    |-- |
+|    |    |    |    |    |-- |
+|    |    |    |    |    |    |-- <=
+|    |    |    |    |    |    |    |-- _aAAAAAAAAAAAA
+|    |    |    |    |    |    |    |-- 0
+|    |    |    |    |    |    |-- <=
+|    |    |    |    |    |    |    |-- _bBBBBBBBBBBBB
+|    |    |    |    |    |    |    |-- 0
+|    |    |    |    |    |-- <=
+|    |    |    |    |    |    |-- _cCCCCCCCCCCCC
+|    |    |    |    |    |    |-- 0
+|    |    |    |    |-- then
+|    |    |    |    |    |-- output
+|    |    |    |    |    |    |-- -
+|    |    |    |    |    |    |    |-- 0
+|    |    |    |    |    |    |    |-- 1
+|    |    |    |    |    |-- output
+|    |    |    |    |    |    |-- 0
+|    |    |-- if
+|    |    |    |-- !
+|    |    |    |    |-- <=
+|    |    |    |    |    |-- _aAAAAAAAAAAAA
+|    |    |    |    |    |-- +
+|    |    |    |    |    |    |-- _bBBBBBBBBBBBB
+|    |    |    |    |    |    |-- _cCCCCCCCCCCCC
+|    |    |    |-- then
+|    |    |    |    |-- output
+|    |    |    |    |    |-- 10
+|    |    |    |    |-- output
+|    |    |    |    |    |-- 0
